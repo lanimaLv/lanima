@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>lanima - mājas lapu izstrāde</title>
+    <title>lanima - progresīvi risinājumi</title>
     <meta
       name="description"
       content="Mājas lapu izstrāde, dizains, par demokrātiskām cenām, piemeklēti labākie risinājumi jūsu vajadzībām"
@@ -17,18 +17,18 @@
     <meta name="author" content="lanima, lanima@inbox.lv" />
 
     <!-- My styles -->
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!--// My styles -->
 
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!--// Bootstrap -->
+
+    <!-- Google verification -->
     <meta
       name="google-site-verification"
       content="LHXb8G_04rQKbL1D2DoRdPeG036YcLyxtvKQzlSt2VE"
@@ -41,116 +41,79 @@
       crossorigin="anonymous"
     />
     <!--// Fa icons -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-127171636-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-127171636-1");
-    </script>
-    <!--// Google -->
   </head>
 
   <body id="page-top">
+    <!-- Main Container -->
     <div class="container-fluid">
-      <div class="row">
-        <!-- Nav bar -->
-        <nav
-          class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow p-3 mb-5 bg-white"
-          style="background-color: #0099cc"
-        >
-          <a class="navbar-brand" href="index.html">#lanima</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="true"
-            aria-label="Toggle navigation"
+      <!-- Header section -->
+      <header class="header">
+        <div class="row">
+          <div class="col-md-12 text-center" id="brand">
+            <a href="#"><h1>#lanima</h1></a>
+          </div>
+        </div>
+      </header>
+      <!--// Header section -->
+
+      <!-- Main content -->
+      <section>
+        <div class="row">
+          <div
+            class="col-md-2 text-center shadow-lg p-3 mb-5 bg-white rounded"
+            id="about-card"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <h4><i class="fas fa-book-open"></i> Par mums</h4>
+          </div>
+          <div
+            class="col-md-5 shadow-lg p-3 mb-5 bg-white rounded text-center"
+            id="design-card"
+          >
+            <h4><i class="fas fa-greater-than"></i> Dizains</h4>
+          </div>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="par-mums.html">Par mums</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="majas-lapu-izstrade.html"
-                  >Mājas lapu noma</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="majas-lapu-izstrade.html"
-                  >Mājas lapu izstrāde</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="grafiskais-dizains.html"
-                  >Dizaina pakalpojumi</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="musu-darbi.html">Mūsu darbi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="socialas-vietnes.html"
-                  >Sociālā vide</a
-                >
-              </li>
-            </ul>
+          <div
+            class="col-md-5 shadow-lg p-4 mb-5 bg-white rounded text-center"
+            id="programming-card"
+          >
+            <h4><i class="fas fa-code"></i> Programmēšana</h4>
+          </div>
+        </div>
 
-            <ul
-              class="navbar-nav mr-right"
-              style="display: inline-block; list-style-type: none; color: black; opacity: 0.5; font-weight: bold"
-            >
-              <li style="display: inline-block;">e-pasts: lanima@inbox.lv</li>
-              <li style="display: inline-block;">|</li>
-              <li style="display: inline-block;">tālrunis: 26224865</li>
+        <div class="row">
+          <div
+            class="col-md-5 text-center shadow-lg p-3 mb-5 bg-white rounded"
+            id="clients-card"
+          >
+            <h4><i class="fas fa-chess-board"></i> Mūsu klienti</h4>
+            <ul>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
             </ul>
           </div>
-        </nav>
-        <!--// Nav bar -->
-      </div>
-
-      <br />
-      <br />
-      <br />
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 text-center shadow-lg p-3 mb-5 bg-white rounded">
-          <h1 style="opacity: 0.7">Mūsdienīgi risinājumi</h1>
-          <p class="text-muted">
-            Mājas lapu noma | Mājas lapu izstrāde | Dizains
-          </p>
         </div>
-      </div>
+      </section>
     </div>
+    <!--// Main Container -->
 
-    <div class="container"></div>
-
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
-        © 2018 Visas tiesības aizsargātas:
-        <a href="https://www.lanima.lv"> lanima.lv - </a>
-        <a href="cookies.html">Privātuma Politika</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+    <!-- Bootstrap Js -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
