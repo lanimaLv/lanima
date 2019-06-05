@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-brand {
+  font-family: "Kaushan Script", cursive;
+  color: white !important;
+  font-size: 8vh !important;
+}
+#black-intro {
+  padding: 15% !important;
+  -webkit-clip-path: polygon(100% 0, 100% 38%, 70% 86%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 38%, 70% 86%, 0 100%, 0 0);
+  background-color: black !important;
+  color: white !important;
+}
+.navbar-toggler {
+  padding-right: 5vh !important;
+  color: white !important;
+  border: 2px solid white !important;
+  -webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
+}
