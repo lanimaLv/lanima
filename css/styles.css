@@ -25,3 +25,23 @@ body {
   -webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
 }
+.navbar-nav a {
+  color: white !important;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.9;
+  color: gray !important;
+  text-decoration: none !important;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
