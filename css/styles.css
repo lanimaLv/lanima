@@ -18,6 +18,7 @@ body {
   color: white !important;
 }
 .navbar-toggler {
+  margin-right: 20vh !important;
   padding-right: 5vh !important;
   color: white !important;
   border: 2px solid white !important;
