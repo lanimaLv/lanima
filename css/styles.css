@@ -27,7 +27,7 @@ body {
   color: gray !important;
 }
 #navbar-nav-2 a:hover {
-  color: teal !important;
+  color: black !important;
 }
 @media only screen and (max-width: 600px) {
   #inst-style {
