@@ -26,9 +26,6 @@ body {
 .navbar-nav a:hover {
   color: gray !important;
 }
-#navbar-nav-2 a:hover {
-  color: black !important;
-}
 @media only screen and (max-width: 600px) {
   #inst-style {
     margin-top: 3vh !important;
