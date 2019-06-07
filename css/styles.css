@@ -32,6 +32,11 @@ body {
   border-radius: 50% !important;
   transition-duration: 900ms !important;
 }
+#inst-icon-hover img:hover {
+  opacity: 0.6 !important;
+  border-radius: 50% !important;
+  transition-duration: 900ms !important;
+}
 @media only screen and (max-width: 600px) {
   #inst-style {
     margin-top: 3vh !important;
