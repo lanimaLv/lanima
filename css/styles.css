@@ -27,6 +27,11 @@ body {
 .navbar-nav a:hover {
   color: gray !important;
 }
+#fb-icon-hover img:hover {
+  opacity: 0.6 !important;
+  border-radius: 50% !important;
+  transition-duration: 900ms !important;
+}
 @media only screen and (max-width: 600px) {
   #inst-style {
     margin-top: 3vh !important;
@@ -47,7 +52,7 @@ body {
   color: white !important;
   -webkit-clip-path: polygon(0 11%, 91% 0, 100% 100%, 0 79%);
   clip-path: polygon(0 11%, 91% 0, 100% 100%, 0 79%);
-  border-radius: 50% !important;
+  border-radius: 40% !important;
 }
 #navbar-nav-2 a:hover {
   color: black !important;
