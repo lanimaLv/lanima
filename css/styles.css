@@ -18,12 +18,7 @@ body {
   color: white !important;
 }
 .navbar-toggler {
-  margin-right: 20vh !important;
-  padding-right: 5vh !important;
   color: white !important;
-  border: 2px solid white !important;
-  -webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
 }
 .navbar-nav a {
   color: white !important;
@@ -31,20 +26,8 @@ body {
 .navbar-nav a:hover {
   color: gray !important;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.9;
-  color: gray !important;
-  text-decoration: none !important;
-}
-
-.fa-facebook {
-  background: black;
-  color: white;
+@media only screen and (max-width: 600px) {
+  #inst-style {
+    margin-top: 3vh !important;
+  }
 }
