@@ -31,3 +31,8 @@ body {
     margin-top: 3vh !important;
   }
 }
+@media only screen and (max-width: 800px) {
+  #inst-style {
+    margin-top: 3vh !important;
+  }
+}
