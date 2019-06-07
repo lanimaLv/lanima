@@ -47,7 +47,7 @@ body {
   color: white !important;
   -webkit-clip-path: polygon(0 11%, 91% 0, 100% 100%, 0 79%);
   clip-path: polygon(0 11%, 91% 0, 100% 100%, 0 79%);
-  border-radius: 20% !important;
+  border-radius: 50% !important;
 }
 #navbar-nav-2 a:hover {
   color: black !important;
