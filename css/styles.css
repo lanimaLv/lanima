@@ -23,7 +23,7 @@ body {
 .navbar-nav a {
   color: white !important;
 }
-#navbar-nav-1 a:hover {
+.navbar-nav a:hover {
   color: gray !important;
 }
 #navbar-nav-2 a:hover {
