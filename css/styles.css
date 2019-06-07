@@ -57,6 +57,9 @@ body {
 #navbar-nav-2 a:hover {
   color: black !important;
 }
+.simple-page-span {
+  border-bottom: 2px solid brown !important;
+}
 @media only screen and (max-width: 600px) {
   #web-header {
     padding: 20vw !important;
