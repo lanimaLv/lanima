@@ -24,11 +24,11 @@
   </head>
   <body>
     <div
-      class="container-fluid text-center shadow-lg p-3 mb-5 bg-white"
+      class="container-fluid text-center shadow-lg p-3 mb-5 bg-white rounded"
       id="black-intro"
     >
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg ">
           <a class="navbar-brand" href="#">#lanima</a>
           <button
             class="navbar-toggler"
@@ -45,7 +45,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">WEB dev</a>
+                <a class="nav-link" href="majas-lapas.html">WEB dev</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">APP dev</a>
@@ -69,14 +69,61 @@
       <div class="row">
         <div class="col-md-6 text-center">
           <h4>
-            <a href="#" style="color: black !important"><b>Let's talk!</b></a>
+            <a
+              href="#"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              style="color: black !important"
+              ><b>Let's talk!</b></a
+            >
           </h4>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
           <p>© 2019 ALL RIGHTS RESERVED.</p>
         </div>
         <div class="col-md-6 text-center">
           <a
             href="https://www.facebook.com/lanimaLV/"
             class="fa fa-facebook"
+            style="-webkit-clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);"
           ></a>
         </div>
       </div>

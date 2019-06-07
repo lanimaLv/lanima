@@ -28,6 +28,9 @@ body {
 .navbar-nav a {
   color: white !important;
 }
+.navbar-nav a:hover {
+  color: gray !important;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
