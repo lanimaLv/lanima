@@ -23,8 +23,11 @@ body {
 .navbar-nav a {
   color: white !important;
 }
-.navbar-nav a:hover {
+#navbar-nav-1 a:hover {
   color: gray !important;
+}
+#navbar-nav-2 a:hover {
+  color: teal !important;
 }
 @media only screen and (max-width: 600px) {
   #inst-style {
@@ -35,4 +38,28 @@ body {
   #inst-style {
     margin-top: 3vh !important;
   }
+}
+.home {
+  color: white !important;
+  font-weight: bold !important;
+}
+#web-header {
+  background-color: brown !important;
+  padding: 10vw !important;
+  color: white !important;
+  -webkit-clip-path: polygon(0 22%, 80% 0%, 100% 100%, 0 79%);
+  clip-path: polygon(0 22%, 80% 0%, 100% 100%, 0 79%);
+}
+@media only screen and (max-width: 600px) {
+  #web-header {
+    padding: 20vw !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #inst-style {
+    margin-top: 3vh !important;
+  }
+}
+#footer-2 {
+  padding: 10vh !important;
 }
